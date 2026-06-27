@@ -279,7 +279,6 @@ stay resilient against modern cyber threats.
 <div class="term-gap"></div>
 <span class="term-pink">Languages</span>
   ◉ Python                 ████████████░░  Proficient
-  ◉ Java                   █████████░░░░░  Intermediate
 <div class="term-gap"></div>
 <span class="term-yellow">Platforms</span>
   ◉ TryHackMe — <span class="term-green">Top 5% Globally</span>
@@ -349,7 +348,7 @@ stay resilient against modern cyber threats.
   📍 Location : Tamil Nadu, India
   🐙 GitHub   : github.com/sethupathi-cyber
   🔗 LinkedIn : linkedin.com/in/sethupathi-m-
-  🎯 THM      : tryhackme.com/p/sethupathi
+  🎯 THM      : tryhackme.com/p/sethupathiM
 <div class="term-gap"></div>
 <span class="term-yellow">Or scroll down and use the contact form ↓</span>
 `,
