@@ -1,0 +1,58 @@
+resume datails :
+name:M.Sethupathi  
+D.O.B:15-11-2005  
+college: Mahendra Engineering College
+degree: BE- Cyber Security batch 2023-2027
+cgpa:8.18
+
+schooling's Karai Permabalur 
+class:12th (higher Secondary Schooling )
+mark scored:87%
+
+skills:
+penetration Testing
+WAPT
+Networking
+Time Management
+Linux
+
+programming language known :
+python 
+
+ctf & extracurricular 
+i have secured a second place inter collage ctf event 
+active participating on try hack me (top 7%)
+also in hack the box on vulnerable machines 
+particapted in hacthons 
+
+projects:
+brute_Forcing_script_in_java - which a tool for burte forcing the tradional protocols made with java 
+pentest_mcp- an mcp tool for automating the penetration testing process which needs tradional scripting 
+ghostroute-GhostRoute is a modular, root-powered Linux anonymity tool that routes all system traffic through Tor, proxies, and obfuscation layers. Every feature is independently togglable via an interactive TUI or CLI commands
+attack-Surface-Mapper-A comprehensive, modular web application attack surface discovery tool with a rich terminal UI.
+
+personal archivements:
+published patent in this title: Title of the invention : Secure Decentralized Storage and Access of Digital Documents Using Blockchain Technology
+conducted and organized several ctf events for the our college 
+i was a speaker in owasp student chapter event in our college which include 60+ students 
+
+work experience:
+completed a one month internship in Ozone Cyber Security Jun 2025 – Jul 2025
+skill gained : recon to penetration testing methodology and discovered xss,sqli,html injection
+completed a remote internship in Skillintern India Feb 2024- May 2024
+skill gained : learned basic methodology of cyber security and core of concepts 
+
+Language Known:
+Tamil(read ,write ,speak)
+English(read ,write ,speak)
+
+about me: 
+am a passinate person how wants to work in cyber security fields and crazy about penetration testing , am always eager learn and improve,
+am a responsible person who takes accountability for my mistake and work, i wanna work in offensive security 
+
+
+contact :
+email :user@doamin.com
+linked in: -----
+ph no:----
+

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M. Sethupathi — Cyber Security Engineer</title>
+  <meta name="description" content="Portfolio of M. Sethupathi — Cyber Security Engineer specializing in Penetration Testing, WAPT, and Offensive Security." />
+  <meta name="keywords" content="cybersecurity, penetration testing, WAPT, ethical hacking, portfolio, Sethupathi" />
+  <meta name="author" content="M. Sethupathi" />
+  <!-- OpenGraph -->
+  <meta property="og:title" content="M. Sethupathi — Cyber Security Engineer" />
+  <meta property="og:description" content="Penetration Tester & Offensive Security Enthusiast. Explore my projects, achievements, and experience." />
+  <meta property="og:type" content="website" />
+  <!-- Favicon (emoji fallback) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">[</span>
+        seth<span>@</span>pentest
+        <span class="logo-bracket">]$</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#achievements">achievements</a></li>
+        <li><a href="#contact" class="nav-cta">contact_me</a></li>
+      </ul>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle mobile menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-grid-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <div class="hero-badge-dot"></div>
+          Available for Opportunities
+        </div>
+        <p class="hero-greeting">// Hello, World!</p>
+        <h1 class="hero-name">
+          <span class="first">M. </span><span class="last">Sethupathi</span>
+        </h1>
+        <p class="hero-tagline">
+          <span id="typing-text"></span><span class="cursor"></span>
+        </p>
+        <p class="hero-desc">
+          Passionate about <span class="glow-green">Offensive Security</span> &amp; breaking things (ethically).
+          BE Cyber Security student at Mahendra Engineering College, building tools that
+          make penetration testing smarter and faster.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn-ghost">
+            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            Get In Touch
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">4+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">Top 5%</div>
+            <div class="stat-label">TryHackMe</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">1</div>
+            <div class="stat-label">Patent</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Internships</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring">
+          <img src="profile photo.png" alt="M. Sethupathi — Cyber Security Engineer" class="hero-photo" loading="eager" />
+          <div class="hero-photo-bg"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text-block reveal-left">
+          <p class="section-label">about me</p>
+          <h2 class="section-title">Hacker at Heart,<br /><span class="glow-green">Builder by Nature</span></h2>
+          <p>
+            I'm a <span class="about-highlight">3rd-year BE Cyber Security student</span> at Mahendra Engineering College
+            who lives and breathes offensive security. From finding real-world vulnerabilities during internships
+            to competing in CTF competitions, I'm always pushing to understand systems at their deepest level.
+          </p>
+          <p>
+            My journey spans from recon and enumeration all the way to exploitation and tool development.
+            I build open-source security tools, publish research (patent included), and actively contribute
+            to the security community — including speaking at <span class="about-highlight">OWASP Student Chapter events</span>.
+          </p>
+          <p>
+            I thrive in environments where curiosity is celebrated and every challenge is a puzzle waiting to be solved.
+            My goal: to work in <span class="about-highlight">offensive security</span> and help organizations build
+            resilient systems by thinking like an attacker.
+          </p>
+          <div class="langs-row" style="margin-top:28px;">
+            <div class="lang-chip">🌐 English</div>
+            <div class="lang-chip">🗣️ Tamil</div>
+          </div>
+        </div>
+        <div class="reveal-right">
+          <div class="info-card">
+            <p class="section-label" style="margin-bottom:24px;">education</p>
+            <div class="edu-item">
+              <div class="edu-degree">BE — Cyber Security</div>
+              <div class="edu-school">Mahendra Engineering College</div>
+              <div class="edu-meta">
+                <span>📅 Batch 2023 – 2027</span>
+                <span>📊 CGPA 8.18</span>
+              </div>
+              <div style="margin-top:12px;">
+                <span class="edu-badge green">🎓 Undergraduate</span>
+                <span class="edu-badge cyan" style="margin-left:8px;">🔐 Cyber Security</span>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-degree">Higher Secondary (12th)</div>
+              <div class="edu-school">Karai, Perambalur</div>
+              <div class="edu-meta">
+                <span>🏫 State Board</span>
+              </div>
+            </div>
+          </div>
+          <div class="info-card" style="margin-top:20px;">
+            <p class="section-label" style="margin-bottom:16px;">platforms & profiles</p>
+            <div style="display:flex; flex-direction:column; gap:14px;">
+              <div style="display:flex; align-items:center; gap:12px; font-size:0.88rem;">
+                <span style="font-size:1.2rem;">🎯</span>
+                <div>
+                  <div style="color:var(--text-primary); font-weight:600;">TryHackMe</div>
+                  <div style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-green);">Top 5% Globally</div>
+                </div>
+              </div>
+              <div style="display:flex; align-items:center; gap:12px; font-size:0.88rem;">
+                <span style="font-size:1.2rem;">💀</span>
+                <div>
+                  <div style="color:var(--text-primary); font-weight:600;">Hack The Box</div>
+                  <div style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-secondary);">Active — Vulnerable Machines</div>
+                </div>
+              </div>
+              <div style="display:flex; align-items:center; gap:12px; font-size:0.88rem;">
+                <span style="font-size:1.2rem;">🏆</span>
+                <div>
+                  <div style="color:var(--text-primary); font-weight:600;">CTF Competitions</div>
+                  <div style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan);">Active Participant & Organizer</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">technical skills</p>
+        <h2 class="section-title">My <span class="glow-cyan">Arsenal</span></h2>
+        <p class="section-subtitle">Core competencies built through hands-on labs, real-world internships, and continuous practice.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal" data-skill="90">
+          <div class="skill-icon">🎯</div>
+          <div class="skill-name">Penetration Testing</div>
+          <div class="skill-desc">Full-cycle pentesting methodology — recon, enumeration, exploitation, and post-exploitation. Hands-on experience from internship and CTF environments.</div>
+          <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+          <div class="skill-level">Advanced</div>
+        </div>
+        <div class="skill-card reveal" data-skill="85">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-name">Web Application Pentesting (WAPT)</div>
+          <div class="skill-desc">Discovered XSS, SQLi, and HTML injection vulnerabilities in live applications. Proficient with Burp Suite, OWASP Top 10, and manual testing techniques.</div>
+          <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+          <div class="skill-level">Advanced</div>
+        </div>
+        <div class="skill-card reveal" data-skill="80">
+          <div class="skill-icon">🖥️</div>
+          <div class="skill-name">Linux & Shell</div>
+          <div class="skill-desc">Expert Linux user — scripting, system administration, privilege escalation, and environment configuration for red-team operations and tool development.</div>
+          <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+          <div class="skill-level">Proficient</div>
+        </div>
+        <div class="skill-card reveal" data-skill="78">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-name">Networking</div>
+          <div class="skill-desc">Deep understanding of TCP/IP, protocols, traffic analysis, and network-level attack vectors including MITM, scanning, and service enumeration.</div>
+          <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+          <div class="skill-level">Proficient</div>
+        </div>
+        <div class="skill-card reveal" data-skill="82">
+          <div class="skill-icon">🐍</div>
+          <div class="skill-name">Python</div>
+          <div class="skill-desc">Automation scripts, exploit development, tool building (MCP integrations, recon automation), and data parsing for security workflows.</div>
+          <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+          <div class="skill-level">Proficient</div>
+        </div>
+        <div class="skill-card reveal" data-skill="70">
+          <div class="skill-icon">☕</div>
+          <div class="skill-name">Java</div>
+          <div class="skill-desc">Built network protocol brute-forcing tools in Java targeting traditional protocols. Strong understanding of socket programming and protocol design.</div>
+          <div class="skill-bar-wrap"><div class="skill-bar"></div></div>
+          <div class="skill-level">Intermediate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">open source</p>
+        <h2 class="section-title">Featured <span class="glow-pink">Projects</span></h2>
+        <p class="section-subtitle">Tools built for the security community — from anonymity layers to automated attack surface discovery.</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- GhostRoute -->
+        <div class="project-card reveal">
+          <div class="project-terminal">
+            <div class="project-terminal-bar">
+              <div class="proj-dot r"></div><div class="proj-dot y"></div><div class="proj-dot g"></div>
+              <span class="project-term-path">~/tools/ghostroute</span>
+            </div>
+            <div class="project-code-preview">
+              <span class="code-cmt"># Route all traffic through Tor layers</span><br />
+              <span class="code-kw">sudo</span> ghostroute <span class="code-fn">--enable-tor</span> <span class="code-str">--obfuscate</span><br />
+              <span class="code-cmt">[+] Anonymity layer active...</span><br />
+              <span class="code-fn">GhostRoute&gt;</span> _
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">01 / ANONYMITY TOOL</div>
+            <h3 class="project-name">GhostRoute</h3>
+            <p class="project-desc">A modular, root-powered Linux anonymity tool that routes all system traffic through Tor, proxies, and obfuscation layers. Every feature is independently togglable via an interactive TUI or CLI commands.</p>
+            <div class="project-tags">
+              <span class="tag tag-green">Python</span>
+              <span class="tag tag-cyan">Linux</span>
+              <span class="tag tag-pink">Tor</span>
+              <span class="tag tag-purple">CLI/TUI</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/sethupathi-cyber/" target="_blank" rel="noopener" class="project-link">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                View on GitHub →
+              </a>
+              <span class="tag tag-green">v1.0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Attack Surface Mapper -->
+        <div class="project-card reveal">
+          <div class="project-terminal">
+            <div class="project-terminal-bar">
+              <div class="proj-dot r"></div><div class="proj-dot y"></div><div class="proj-dot g"></div>
+              <span class="project-term-path">~/tools/asm</span>
+            </div>
+            <div class="project-code-preview">
+              <span class="code-cmt"># Discover attack surface of target</span><br />
+              <span class="code-fn">asm</span> <span class="code-str">--target</span> example.com <span class="code-kw">--full-scan</span><br />
+              <span class="code-cmt">[*] Subdomains: 47 found</span><br />
+              <span class="code-cmt">[!] Exposed APIs: 3 critical</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">02 / RECON TOOL</div>
+            <h3 class="project-name">Attack Surface Mapper</h3>
+            <p class="project-desc">A comprehensive, modular web application attack surface discovery tool with a rich terminal UI. Automates subdomain enumeration, API discovery, endpoint mapping, and vulnerability surface analysis.</p>
+            <div class="project-tags">
+              <span class="tag tag-cyan">Python</span>
+              <span class="tag tag-green">Recon</span>
+              <span class="tag tag-yellow">Terminal UI</span>
+              <span class="tag tag-pink">OSINT</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/sethupathi-cyber/" target="_blank" rel="noopener" class="project-link">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                View on GitHub →
+              </a>
+              <span class="tag tag-cyan">Modular</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pentest MCP -->
+        <div class="project-card reveal">
+          <div class="project-terminal">
+            <div class="project-terminal-bar">
+              <div class="proj-dot r"></div><div class="proj-dot y"></div><div class="proj-dot g"></div>
+              <span class="project-term-path">~/tools/pentest-mcp</span>
+            </div>
+            <div class="project-code-preview">
+              <span class="code-cmt"># AI-assisted pentest automation</span><br />
+              <span class="code-kw">pentest_mcp</span> <span class="code-fn">--mode</span> <span class="code-str">auto</span> --target $IP<br />
+              <span class="code-cmt">[AI] Analyzing scan results...</span><br />
+              <span class="code-cmt">[AI] Suggesting exploit chain</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">03 / AI + SECURITY</div>
+            <h3 class="project-name">Pentest MCP</h3>
+            <p class="project-desc">An MCP (Model Context Protocol) tool for automating the penetration testing process. Bridges traditional security scripting with AI models to intelligently suggest and execute enumeration and exploitation steps.</p>
+            <div class="project-tags">
+              <span class="tag tag-purple">MCP</span>
+              <span class="tag tag-green">Python</span>
+              <span class="tag tag-pink">AI</span>
+              <span class="tag tag-cyan">Automation</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/sethupathi-cyber/" target="_blank" rel="noopener" class="project-link">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                View on GitHub →
+              </a>
+              <span class="tag tag-purple">Innovative</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Brute Force Script -->
+        <div class="project-card reveal">
+          <div class="project-terminal">
+            <div class="project-terminal-bar">
+              <div class="proj-dot r"></div><div class="proj-dot y"></div><div class="proj-dot g"></div>
+              <span class="project-term-path">~/tools/brute-force</span>
+            </div>
+            <div class="project-code-preview">
+              <span class="code-cmt"># Protocol brute-forcer (Java)</span><br />
+              <span class="code-fn">java</span> <span class="code-kw">-jar</span> brute.jar <span class="code-str">--proto</span> ssh<br />
+              <span class="code-cmt">[*] Trying wordlist...</span><br />
+              <span class="code-cmt">[+] Credentials found!</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">04 / OFFENSIVE TOOL</div>
+            <h3 class="project-name">Brute Force Script</h3>
+            <p class="project-desc">A Java-based tool for brute-forcing traditional network protocols (SSH, FTP, Telnet, etc.). Features configurable wordlists, threading, protocol abstraction, and clean output formatting for pentest engagements.</p>
+            <div class="project-tags">
+              <span class="tag tag-yellow">Java</span>
+              <span class="tag tag-pink">Offensive</span>
+              <span class="tag tag-green">Networking</span>
+              <span class="tag tag-cyan">Protocols</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/sethupathi-cyber/" target="_blank" rel="noopener" class="project-link">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                View on GitHub →
+              </a>
+              <span class="tag tag-yellow">Java</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="container">
+      <div class="reveal" style="text-align:center; max-width:600px; margin:0 auto 0;">
+        <p class="section-label">work experience</p>
+        <h2 class="section-title">Professional <span class="glow-cyan">Journey</span></h2>
+        <p class="section-subtitle">Real-world experience that shaped my understanding of the attacker's mindset and defensive priorities.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-period">📅 Jun 2025 – Jul 2025</div>
+            <div class="timeline-role">Cyber Security Intern</div>
+            <div class="timeline-company">🏢 Ozone Cyber Security</div>
+            <p class="timeline-desc">Conducted end-to-end penetration testing engagements — from initial recon through exploitation. Successfully discovered and documented real-world vulnerabilities including XSS, SQL Injection, and HTML Injection in live applications. Hands-on exposure to professional pentest reporting and methodology.</p>
+            <div class="timeline-skills">
+              <span class="tag tag-green">Recon</span>
+              <span class="tag tag-pink">XSS</span>
+              <span class="tag tag-pink">SQLi</span>
+              <span class="tag tag-cyan">HTML Injection</span>
+              <span class="tag tag-purple">Pentest Report</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot cyan"></div>
+          <div class="timeline-card">
+            <div class="timeline-period">📅 Feb 2024 – May 2024</div>
+            <div class="timeline-role">Cyber Security Intern (Remote)</div>
+            <div class="timeline-company">🏢 Skillintern India</div>
+            <p class="timeline-desc">Developed a strong foundation in core cybersecurity concepts and methodologies. Studied and applied security frameworks, networking fundamentals, and vulnerability assessment basics. This internship laid the groundwork for advanced pentesting skills developed later.</p>
+            <div class="timeline-skills">
+              <span class="tag tag-cyan">Networking</span>
+              <span class="tag tag-green">Security Fundamentals</span>
+              <span class="tag tag-yellow">Vulnerability Assessment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">highlights</p>
+        <h2 class="section-title">Achievements &amp; <span class="glow-green">Recognition</span></h2>
+        <p class="section-subtitle">Milestones earned through dedication, competition, and contributing to the security community.</p>
+      </div>
+      <div class="achievements-top">
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🥈</div>
+          <div class="achievement-title">2nd Place — Inter-College CTF</div>
+          <p class="achievement-detail">Secured 2nd place in an inter-college Capture The Flag competition, demonstrating practical skills in exploitation, cryptography, and reverse engineering.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🎯</div>
+          <div class="achievement-title">TryHackMe — Top 5%</div>
+          <p class="achievement-detail">Consistently ranked in the global top 5% on TryHackMe, solving challenges spanning web exploitation, privilege escalation, and network pentesting.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">📜</div>
+          <div class="achievement-title">Published Patent</div>
+          <p class="achievement-detail">Inventor on a published patent titled: "Secure Decentralized Storage and Access of Digital Documents Using Blockchain Technology."</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🎤</div>
+          <div class="achievement-title">OWASP Speaker</div>
+          <p class="achievement-detail">Delivered a talk at the OWASP Student Chapter event at Mahendra Engineering College, presenting to an audience of 60+ students on real-world web security concepts.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">🚩</div>
+          <div class="achievement-title">CTF Organizer</div>
+          <p class="achievement-detail">Conducted and organized multiple Capture The Flag events for Mahendra Engineering College, nurturing the next generation of cybersecurity talent.</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="achievement-icon">💀</div>
+          <div class="achievement-title">Hack The Box</div>
+          <p class="achievement-detail">Active on Hack The Box, solving retired and active vulnerable machines to continuously develop real-world exploitation techniques and methodologies.</p>
+        </div>
+      </div>
+
+      <!-- Gallery -->
+      <div class="reveal">
+        <div class="gallery-section-title">📸 Event Gallery</div>
+        <div class="gallery-grid">
+          <div class="gallery-item" id="gallery-ctf" data-img="ctf_event_pic.jpg" data-caption="Inter-College CTF Competition — 2nd Place Achievement" tabindex="0" role="button" aria-label="View CTF event photo">
+            <img src="ctf_event_pic.jpg" alt="Inter-College CTF Competition — Sethupathi's 2nd place achievement" loading="lazy" />
+            <div class="gallery-overlay">
+              <div class="gallery-caption">CTF Competition</div>
+              <div class="gallery-subcaption">2nd Place — Inter-College</div>
+            </div>
+            <div class="gallery-zoom-icon">🔍</div>
+          </div>
+          <div class="gallery-item" id="gallery-owasp" data-img="owasp_event.jpg.jpeg" data-caption="OWASP Student Chapter — Speaker Session with 60+ Attendees" tabindex="0" role="button" aria-label="View OWASP event photo">
+            <img src="owasp_event.jpg.jpeg" alt="OWASP Student Chapter event — Sethupathi speaking to 60+ students" loading="lazy" />
+            <div class="gallery-overlay">
+              <div class="gallery-caption">OWASP Event</div>
+              <div class="gallery-subcaption">Speaker — 60+ Students</div>
+            </div>
+            <div class="gallery-zoom-icon">🔍</div>
+          </div>
+          <div class="gallery-item" id="gallery-poster" data-img="owasp_poster.jpeg" data-caption="OWASP Student Chapter — Event Poster" tabindex="0" role="button" aria-label="View OWASP poster">
+            <img src="owasp_poster.jpeg" alt="OWASP Student Chapter event poster — Mahendra Engineering College" loading="lazy" />
+            <div class="gallery-overlay">
+              <div class="gallery-caption">OWASP Poster</div>
+              <div class="gallery-subcaption">Official Event Collateral</div>
+            </div>
+            <div class="gallery-zoom-icon">🔍</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lightbox-inner">
+      <button id="lightbox-close" aria-label="Close image viewer">✕</button>
+      <img id="lightbox-img" src="" alt="" />
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- ===== TERMINAL SECTION ===== -->
+  <section id="terminal-section">
+    <div class="container">
+      <div class="terminal-intro reveal">
+        <p class="section-label">interactive</p>
+        <h2 class="section-title" style="text-align:center;">Try the <span class="glow-green">Terminal</span></h2>
+        <p class="section-subtitle" style="text-align:center; margin: 0 auto;">Type <code style="color:var(--accent-green); background:rgba(0,255,135,0.08); padding:2px 8px; border-radius:4px; font-family:var(--font-mono); font-size:0.85em;">help</code> to explore commands and learn more about me.</p>
+      </div>
+      <div class="terminal-window reveal">
+        <div class="terminal-topbar">
+          <div class="term-dots">
+            <div class="term-dot red"></div>
+            <div class="term-dot yellow"></div>
+            <div class="term-dot green"></div>
+          </div>
+          <div class="terminal-title">seth@portfolio ~ bash</div>
+        </div>
+        <div class="terminal-body" id="terminal-output">
+          <!-- Populated by JS -->
+        </div>
+        <div class="terminal-input-row">
+          <span class="term-input-prompt">seth@portfolio:~$&nbsp;</span>
+          <input type="text" id="term-input" autocomplete="off" spellcheck="false" placeholder="type a command..." aria-label="Terminal input" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="reveal" style="max-width:560px;">
+        <p class="section-label">get in touch</p>
+        <h2 class="section-title">Let's <span class="glow-green">Connect</span></h2>
+        <p class="section-subtitle">Open to internships, collaborations, CTF teams, bug bounty partnerships, and full-time opportunities in offensive security.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info-block reveal-left">
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📧</div>
+            <div>
+              <div style="font-weight:600; color:var(--text-primary); margin-bottom:2px;">Email</div>
+              <div style="font-family:var(--font-mono); font-size:0.82rem; color:var(--accent-green);">sethupathi7454@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">🎓</div>
+            <div>
+              <div style="font-weight:600; color:var(--text-primary); margin-bottom:2px;">Institution</div>
+              <div style="font-size:0.85rem; color:var(--text-secondary);">Mahendra Engineering College</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📍</div>
+            <div>
+              <div style="font-weight:600; color:var(--text-primary); margin-bottom:2px;">Location</div>
+              <div style="font-size:0.85rem; color:var(--text-secondary);">Tamil Nadu, India</div>
+            </div>
+          </div>
+          <div class="social-row">
+            <a href="https://github.com/sethupathi-cyber/" target="_blank" rel="noopener" class="social-btn" id="github-link">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/sethupathi-m-" target="_blank" rel="noopener" class="social-btn" id="linkedin-link">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://tryhackme.com/p/sethupathi" target="_blank" rel="noopener" class="social-btn" id="thm-link">
+              🎯 TryHackMe
+            </a>
+          </div>
+        </div>
+        <div class="contact-form reveal-right">
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="form-name">// your_name</label>
+              <input type="text" id="form-name" class="form-input" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="form-email">// your_email</label>
+              <input type="email" id="form-email" class="form-input" placeholder="Enter your email" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="form-subject">// subject</label>
+              <input type="text" id="form-subject" class="form-input" placeholder="What's this about?" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="form-message">// message</label>
+              <textarea id="form-message" class="form-textarea" placeholder="Type your message here..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit" id="contact-submit">
+              SEND_MESSAGE.exe ↗
+            </button>
+          </form>
+          <div id="form-feedback" style="display:none; margin-top:16px; padding:12px 16px; border-radius:8px; font-family:var(--font-mono); font-size:0.82rem;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-copy">
+        © 2025 <span>M. Sethupathi</span> — Built with ❤️ &amp; ☕ for Offensive Security
+      </div>
+      <div class="footer-links">
+        <a href="#hero">home</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
