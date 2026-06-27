@@ -543,7 +543,7 @@ stay resilient against modern cyber threats.
     formData.append('subject', subject || 'Portfolio Contact');
     formData.append('message', message);
 
-    fetch('https://formspree.io/f/xpwreaqj', {
+    fetch('https://formspree.io/f/sethupathi7454@gmail.com', {
       method: 'POST',
       body: formData,
       headers: { 'Accept': 'application/json' }
